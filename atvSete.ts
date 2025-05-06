@@ -1,7 +1,7 @@
 /*10 pontos
 7 - Desenvolva um programa que leia números até que a soma dos valores
 digitados seja maior que 100.
-Nome aluno:
+Nome aluno: Lívia Borges Matos
 */
 let teclado = require('prompt-sync')();
 
