@@ -10,20 +10,20 @@ let teclado = require(`prompt-sync`)();
 let cont: number = 0;
 let quantPares: number = 0;
 let quantImpares: number = 0;
-let par: number[] = [];
-let impar: number[] = [];
+let par: number[] = []; //variável array
+let impar: number[] = []; // variável array
 
 
-for(cont = 1; cont <= 10; cont++){
-    let n: number = parseInt(teclado('Digite um núemro:'));
+for(cont = 1; cont <= 10; cont++){         // repetição que com auxilio da cont pede 10 números
+    let n: number = parseInt(teclado('Digite um número:'));
 
     if( n % 2 == 0){
         quantPares++
-        par.push(n);
+        par.push(n);                    //armazena o número em par
     }
     else{
         quantImpares++
-        impar.push(n);
+        impar.push(n);               // armazena o número em impar
     }
 
 }
