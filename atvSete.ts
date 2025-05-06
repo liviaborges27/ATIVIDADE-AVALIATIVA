@@ -5,14 +5,16 @@ Nome aluno:
 */
 let teclado = require('prompt-sync')();
 
-let numero1: number = 0;
-let numero2: number = 0;
-let numeros: number = 0;
-numero1 = parseInt(teclado('Digite um número:'));
-numero2 = parseInt(teclado('Digite um número:'));
+let numero: number = 0;
+let somaNumeros: number = 0;
 
-if(numero1 + numero2 < 100){
-    
+while(somaNumeros < 100){
+    numero = parseInt(teclado('Digite um número:'));
 
+    somaNumeros += numero;        // somaNumeros é igual a numero mais somaNumeros
 }
+console.log(`A soma dos números é igual a ${somaNumeros}`);
+
+
+
 
