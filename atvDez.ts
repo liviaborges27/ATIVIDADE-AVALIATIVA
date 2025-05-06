@@ -29,3 +29,6 @@ for(dados = 1; dados<= 10; dados++ ){
 
 
  console.log(`A média das alturas das pessoas de maior idade é de: ${media}`);
+
+
+ 
