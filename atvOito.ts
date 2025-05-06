@@ -13,7 +13,7 @@ let contPessoa: number = 0;
 let somaIdadeF: number = 0;
 let somaIdadeM: number = 0;
 
-for(contPessoa = 1; contPessoa <=5; contPessoa++){
+for(contPessoa = 1; contPessoa <=50; contPessoa++){
     idade = parseInt(teclado('Digite sua idade:'));
     sexo = teclado('Digite seu sexo, insira f/m, para feminino ou masculino:');
     
